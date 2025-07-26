@@ -1,0 +1,16 @@
+{
+  "name": "FieldCommander",
+  "short_name": "FC",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "description": "Sovereign AI command interface",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "48x48"
+    }
+  ],
+  "theme_color": "#000000"
+}
