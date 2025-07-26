@@ -1,9 +1,6 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-  async rewrites() {
-    return [
-      { source: '/auth', destination: '/pages/auth.js' },
-      { source: '/logs', destination: '/pages/logs.js' }
-    ];
-  }
-}
+};
+
+module.exports = nextConfig;
