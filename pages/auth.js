@@ -29,3 +29,9 @@ export default function Auth() {
         />
         <button type="submit" style={{ padding: 10, width: '100%' }}>
           Unlock
+        </button>
+      </form>
+      {error && <p style={{ color: 'red' }}>{error}</p>}
+    </main>
+  );
+}
