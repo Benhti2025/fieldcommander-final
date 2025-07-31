@@ -1,0 +1,28 @@
+
+# Node modules and build output
+node_modules/
+.next/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Zip and build artifacts
+*.zip
+*.tgz
+
+# Capsule memory or signer configs (for safety)
+*.secret
+*.vault
+*.capsule
