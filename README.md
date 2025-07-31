@@ -2,108 +2,60 @@
 
 **A mobile-first, role-aware governance interface for sovereign AI systems**
 
-FieldCommander is the control terminal for Divergent Assets — enabling secure, traceable, and compliant interaction with autonomous agents like ForecastAgent, Judith, and SecureSigner. Built with memory-bound capsule logic and anti-AGI governance at its core, FieldCommander enforces role separation, capsule ancestry, and EO14178-aligned transparency.
+FieldCommander is the official control terminal for **Divergent Assets** — enabling secure, traceable, and compliant interaction with autonomous agents like ForecastAgent, Judith, and SecureSigner. Built with memory-bound capsule logic and anti-AGI, role-enforced governance at its core, FieldCommander enforces capsule ancestry, task separation, and [EO14178](https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence)-aligned transparency.
 
 ---
 
-## 📌 Overview
+## 🚀 Overview
 
 | Feature               | Description                                                                 |
 |-----------------------|-----------------------------------------------------------------------------|
-| 🌐 Stack              | Next.js, TailwindCSS, ShadCN UI, Vercel-ready                              |
-| 🧠 Capsule Logic      | Supports memory-bound, role-restricted AI agents via Judith + Vaultkeeper  |
-| 🔐 Secure Execution   | Integrates SecureSigner for private key protection + on-chain dispatch     |
-| 📦 Agent Support      | ForecastAgent, Judith, SolidGrip, NeuroScope, RelayCortex                  |
-| 📱 Mobile Priority     | Designed for biometric auth, offline fallback, and sovereign PWA command   |
+| 📦 Stack              | Next.js, TailwindCSS, ShadCN UI, Vercel-ready                              |
+| 🧠 Capsule Logic      | Supports memory-bound, role-restricted AI agents via Judith + Vaultkeeper   |
+| 🔐 Secure Execution   | Integrates SecureSigner for private key protection + on-chain dispatch      |
+| 🤖 Agent Support      | ForecastAgent, Judith, SolidGrip, NeuroScope, RelayCortex                   |
+| 🧬 License            | Sovereign Loop Protocol License (SLPL) — Patent-backed anti-AGI framework   |
 
 ---
 
-## 🚀 What It Does
+## 🌐 Live Repository
 
-- Dispatch commands to ForecastAgent, Judith, SolidGrip
-- View agent roles, memory state, task status, capsule ROI
-- Launch secure on-chain trades, AI forecasts, and governance proposals
-- Trace every interaction to capsule + signer lineage
-
-FieldCommander is **not a frontend.** It's a memory-aware governance stack for recursive, role-bound AI systems.
+GitHub: [divergentassets/fieldcommander-final](https://github.com/divergentassets/fieldcommander-final)  
+Twitter: [@divergenta83482](https://x.com/divergenta83482)
 
 ---
 
-## 🔒 EO14178 Compliance Snapshot
+## 🛡 License
 
-| EO14178 Pillar               | Status                       |
-|-----------------------------|------------------------------|
-| ✅ Agent Traceability        | Capsule ancestry + signer ID |
-| ✅ Sanctions Awareness       | Judith + Vaultkeeper alerts  |
-| ✅ Tech-Neutral Risk Scoring | NeuroScope + ForecastAgent   |
-| ✅ Privacy-Preserving ID     | Mobile biometrics (ZK-ready) |
-| ✅ Role Enforcement          | A-T-E-G schema (Agent, Tool, Executor, Guardian) |
+This project is licensed under the [SLPL](LICENSE) — Sovereign Loop Protocol License v1.0  
+It prohibits use in AGI training, surveillance, or centralized exploitation models.
 
 ---
 
-## 🧠 Agent Loop Roles
+## 🧠 Sovereign Capsule Stack
 
-```mermaid
-graph TD
-    User --> FieldCommander
-    FieldCommander --> RelayCortex
-    RelayCortex -->|Dispatch Capsule| Judith
-    RelayCortex -->|Execution| SolidGrip
-    RelayCortex --> ForecastAgent
-    Judith --> Vaultkeeper
-    SolidGrip --> SecureSigner
-```
+FieldCommander is part of the Divergent Assets sovereign capsule ecosystem, built to:
 
----
+- Enforce capsule ancestry and traceability  
+- Govern agents through role-aware ATEG logic (Agent, Tool, Executor, Guardian)  
+- Integrate sovereign trade, memory, and execution feedback loops  
 
-## 📄 License
-
-This project is licensed under the **Sovereign Loop Protocol License (SLPL v1.0)**. Highlights:
-
-- ✅ Free to use for compliant, non-AGI-seeking agent ecosystems
-- 🔒 No usage for surveillance, centralized LLM training, or AGI bootstrapping
-- ⚖️ Attribution required if forked
-
-See [LICENSE](./LICENSE) for full terms.
+For architecture and lifecycle flow, see:  
+- [`AGENT_ARCHITECTURE.md`](./AGENT_ARCHITECTURE.md)  
+- [`CAPSULE_FLOW.md`](./CAPSULE_FLOW.md)
 
 ---
 
-## 📚 Learn More
+## 👥 Maintainers
 
-- Capsule Philosophy → [mirror.xyz/keith-charlie](https://mirror.xyz/keith-charlie)
-- IP & Patents → `GENOMIC-MUTATION-ENGINE-0802X`, `QCCW`, `SOFTLOOP-PATTERN-0001`
-- Regulatory Alignment → [EO14178 Summary](https://www.whitehouse.gov/wp-content/uploads/2025/07/Digital-Assets-Report-EO14178.pdf)
-
----
-
-## 📫 Contact
-
-For questions, collaborations, or validation inquiries:
-
-**📧 divergentassets@proton.me**
-
-> Sovereign governance inquiries welcome.
+This repository is governed by the **Divergent Assets** organization.  
+Primary maintainer: `@divergentassets`  
+Transferred from legacy user: `@Benhti2025` on July 31, 2025.
 
 ---
 
-## 📜 Patent Disclosure
+## 🌱 Contribution
 
-This repository is supported by a **filed provisional patent** with the USPTO:
+Due to its security posture, FieldCommander does not accept external PRs without capsule provenance.  
+To contribute to the capsule stack, fork or contact the maintainers.
 
-**Patent Title**: Genomic Mutation Engine for Recursive AI Governance  
-**Filing Date**: July 2025  
-**Reference ID**: GENOMIC-MUTATION-ENGINE-0802X (provisional)
-
-This filing covers:
-- Agent memory lineage and fork scoring
-- Sovereign capsule lifecycle governance
-- Role-separated execution and mutation reusability
-
-All logic in this repository is derived from or protected under this filing.  
-Re-use, fork, or derivative work may require licensing.
-
----
-
-> "FieldCommander isn't just an interface. It's the final form of agent governance."
-
-— Divergent Assets
