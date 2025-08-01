@@ -1,6 +1,7 @@
 # FieldCommander ⚔️
 
 **A mobile-first, role-aware governance interface for sovereign AI systems**
+> 🔐 This repository is public-safe. See [FIELD-SAFE-FINAL-PUB-0825X](./capsules/FIELD-SAFE-FINAL-PUB-0825X.md)
 
 FieldCommander is the official control terminal for **Divergent Assets** — enabling secure, traceable, and compliant interaction with autonomous agents like ForecastAgent, Judith, and SecureSigner. Built with memory-bound capsule logic and anti-AGI, role-enforced governance at its core, FieldCommander enforces capsule ancestry, task separation, and [EO14178](https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence)-aligned transparency.
 
