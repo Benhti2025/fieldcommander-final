@@ -1,3 +1,29 @@
+# -------------------------------------------
+# 🔐 DO NOT EXPOSE VAULT LOGIC OR SIGNER CONFIG
+# The following are intentionally blocked:
+
+# Signer or execution logic
+secure_signer.py
+signer_config_env.json
+SolidGripsigner_env.ps1
+
+# Capsule memory or agent control
+test.secret
+*.secret
+*.vault
+*.capsule
+
+# Trade logic
+solid_grip_*.py
+solidgrip_live_*.py
+SolidGrip_Watchdog_Log.txt
+
+# Local vault and private repo link
+/SolidGrip/
+/solidgrip/
+
+# -------------------------------------------
+# 🧱 STANDARD IGNORE RULES FOR PUBLIC SAFETY
 
 # Node modules and build output
 node_modules/
@@ -22,7 +48,15 @@ Thumbs.db
 *.zip
 *.tgz
 
-# Capsule memory or signer configs (for safety)
-*.secret
-*.vault
-*.capsule
+# IDE folders (VS Code, JetBrains, etc.)
+.vscode/
+.idea/
+
+# Backup and temp files
+*.bak
+*.swp
+*~
+
+# Mac/Linux hidden config
+.config/
+.cache/
